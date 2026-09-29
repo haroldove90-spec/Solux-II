@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#0284C7"/>
+  <circle cx="256" cy="256" r="210" fill="url(#grad1)" opacity="0.25"/>
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dropGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#BAE6FD"/>
+    </linearGradient>
+    <linearGradient id="sparkleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <!-- Modern Clean Sparkle / Droplet Composition -->
+  <path d="M256 96 C256 96, 160 224, 160 304 C160 357 203 400 256 400 C309 400 352 357 352 304 C352 224 256 96 256 96 Z" fill="url(#dropGrad)"/>
+  <path d="M256 160 C256 160, 208 240, 208 288 C208 314 229 336 256 336 C283 336 304 314 304 288 C304 240 256 160 256 160 Z" fill="#0284C7" opacity="0.35"/>
+  <!-- Sparkles -->
+  <path d="M370 120 L378 144 L402 152 L378 160 L370 184 L362 160 L338 152 L362 144 Z" fill="url(#sparkleGrad)"/>
+  <path d="M140 180 L146 198 L164 204 L146 210 L140 228 L134 210 L116 204 L134 198 Z" fill="#FFFFFF"/>
+  <path d="M340 370 L344 382 L356 386 L344 390 L340 402 L336 390 L324 386 L336 382 Z" fill="#E0F2FE"/>
+</svg>

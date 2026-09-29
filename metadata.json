@@ -1,0 +1,6 @@
+{
+  "name": "Ecolux",
+  "description": "Dashboard integral para negocio de limpieza con gestión de inventario, pendientes y encuestas de satisfacción.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
